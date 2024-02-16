@@ -178,17 +178,13 @@ int main() {
     insert(&head,3, 23);
     insert(&head,1, 65);
     insert(&head,4, 12);
-    //printList(head);
+
    
     delete_el(&head, 8);
-    printList(head);
-    //Listptr temp = head;
-    //Listptr revhead =
-    //reverse(&head);
+    printList(head);;
    
     head = reverse(head);
-    //head = reverse(head);
-    //reverse(&head);
+ 
     printf("Enter number: ");
     int num;
     scanf("%d", &num);
